@@ -1,6 +1,6 @@
 {
   "name": "binan-ui",
-  "version": "1.0.0",
+  "version": "1.0.7",
   "description": "Set of UI components for Binan projects",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",

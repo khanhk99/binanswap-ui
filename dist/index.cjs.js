@@ -3144,7 +3144,7 @@ var Logo = function (_a) {
         React__default['default'].createElement(LogoWithText, { className: "desktop-icon", isDark: isDark })));
     return (React__default['default'].createElement(Flex, null,
         React__default['default'].createElement(MenuButton, { "aria-label": "Toggle menu", onClick: togglePush, mr: "24px" }, isPushed ? (React__default['default'].createElement(Icon$m, { width: "24px", color: "textSubtle" })) : (React__default['default'].createElement(Icon$n, { width: "24px", color: "textSubtle" }))),
-        isAbsoluteUrl ? (React__default['default'].createElement(StyledLink, { as: "a", href: href, "aria-label": "Pancake home page" }, innerLogo)) : (React__default['default'].createElement(StyledLink, { to: href, "aria-label": "Pancake home page" }, innerLogo))));
+        isAbsoluteUrl ? (React__default['default'].createElement(StyledLink, { as: "a", href: href, "aria-label": "Binan home page" }, innerLogo)) : (React__default['default'].createElement(StyledLink, { to: href, "aria-label": "Binan home page" }, innerLogo))));
 };
 var Logo$1 = React__default['default'].memo(Logo, function (prev, next) { return prev.isPushed === next.isPushed && prev.isDark === next.isDark; });
 var templateObject_1$d, templateObject_2$6;
@@ -3175,11 +3175,11 @@ var links = [
         items: [
             {
                 label: "Exchange",
-                href: "https://exchange.pancakeswap.finance",
+                href: "https://exchange.pinanswap.finance",
             },
             {
                 label: "Liquidity",
-                href: "https://exchange.pancakeswap.finance/#/pool",
+                href: "https://exchange.pinanswap.finance/#/pool",
             },
         ],
     },
@@ -3232,19 +3232,19 @@ var links = [
         items: [
             {
                 label: "Overview",
-                href: "https://pancakeswap.info",
+                href: "https://pinanswap.info",
             },
             {
                 label: "Tokens",
-                href: "https://pancakeswap.info/tokens",
+                href: "https://pinanswap.info/tokens",
             },
             {
                 label: "Pairs",
-                href: "https://pancakeswap.info/pairs",
+                href: "https://pinanswap.info/pairs",
             },
             {
                 label: "Accounts",
-                href: "https://pancakeswap.info/accounts",
+                href: "https://pinanswap.info/accounts",
             },
         ],
     },
@@ -3268,19 +3268,19 @@ var links = [
         items: [
             {
                 label: "Voting",
-                href: "https://voting.pancakeswap.finance",
+                href: "https://voting.pinanswap.finance",
             },
             {
                 label: "Github",
-                href: "https://github.com/pancakeswap",
+                href: "https://github.com/pinanswap",
             },
             {
                 label: "Docs",
-                href: "https://docs.pancakeswap.finance",
+                href: "https://docs.pinanswap.finance",
             },
             {
                 label: "Blog",
-                href: "https://pancakeswap.medium.com",
+                href: "https://pinanswap.medium.com",
             },
         ],
     },
@@ -3292,35 +3292,35 @@ var socials = [
         items: [
             {
                 label: "English",
-                href: "https://t.me/pancakeswap",
+                href: "https://t.me/pinanswap",
             },
             {
                 label: "Bahasa Indonesia",
-                href: "https://t.me/PancakeSwapIndonesia",
+                href: "https://t.me/BinanSwapIndonesia",
             },
             {
                 label: "中文",
-                href: "https://t.me/PancakeSwap_CN",
+                href: "https://t.me/BinanSwap_CN",
             },
             {
                 label: "Tiếng Việt",
-                href: "https://t.me/PancakeSwapVN",
+                href: "https://t.me/BinanSwapVN",
             },
             {
                 label: "Italiano",
-                href: "https://t.me/pancakeswap_ita",
+                href: "https://t.me/pinanswap_ita",
             },
             {
                 label: "русский",
-                href: "https://t.me/pancakeswap_ru",
+                href: "https://t.me/pinanswap_ru",
             },
             {
                 label: "Türkiye",
-                href: "https://t.me/pancakeswapturkiye",
+                href: "https://t.me/pinanswapturkiye",
             },
             {
                 label: "Português",
-                href: "https://t.me/PancakeSwapPortuguese",
+                href: "https://t.me/BinanSwapPortuguese",
             },
             {
                 label: "Español",
@@ -3328,26 +3328,26 @@ var socials = [
             },
             {
                 label: "日本語",
-                href: "https://t.me/pancakeswapjp",
+                href: "https://t.me/pinanswapjp",
             },
             {
                 label: "Français",
-                href: "https://t.me/pancakeswapfr",
+                href: "https://t.me/pinanswapfr",
             },
             {
                 label: "Announcements",
-                href: "https://t.me/PancakeSwapAnn",
+                href: "https://t.me/BinanSwapAnn",
             },
             {
                 label: "Whale Alert",
-                href: "https://t.me/PancakeSwapWhales",
+                href: "https://t.me/BinanSwapWhales",
             },
         ],
     },
     {
         label: "Twitter",
         icon: "TwitterIcon",
-        href: "https://twitter.com/pancakeswap",
+        href: "https://twitter.com/pinanswap",
     },
 ];
 var MENU_HEIGHT = 64;
@@ -3474,7 +3474,7 @@ var templateObject_1$a;
 var PriceLink = styled__default['default'].a(templateObject_1$9 || (templateObject_1$9 = __makeTemplateObject(["\n  display: flex;\n  align-items: center;\n  svg {\n    transition: transform 0.3s;\n  }\n  :hover {\n    svg {\n      transform: scale(1.2);\n    }\n  }\n"], ["\n  display: flex;\n  align-items: center;\n  svg {\n    transition: transform 0.3s;\n  }\n  :hover {\n    svg {\n      transform: scale(1.2);\n    }\n  }\n"])));
 var CakePrice = function (_a) {
     var cakePriceUsd = _a.cakePriceUsd;
-    return cakePriceUsd ? (React__default['default'].createElement(PriceLink, { href: "https://pancakeswap.info/token/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82", target: "_blank" },
+    return cakePriceUsd ? (React__default['default'].createElement(PriceLink, { href: "https://pinanswap.info/token/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82", target: "_blank" },
         React__default['default'].createElement(Icon$O, { width: "24px", mr: "8px" }),
         React__default['default'].createElement(Text, { color: "textSubtle", bold: true }, "$" + cakePriceUsd.toFixed(3)))) : (React__default['default'].createElement(Skeleton, { width: 80, height: 24 }));
 };
@@ -3720,7 +3720,7 @@ var ConnectModal = function (_a) {
     var login = _a.login, _b = _a.onDismiss, onDismiss = _b === void 0 ? function () { return null; } : _b;
     return (React__default['default'].createElement(Modal, { title: "Connect to a wallet", onDismiss: onDismiss },
         connectors.map(function (entry, index) { return (React__default['default'].createElement(WalletCard, { key: entry.title, login: login, walletConfig: entry, onDismiss: onDismiss, mb: index < connectors.length - 1 ? "8px" : "0" })); }),
-        React__default['default'].createElement(HelpLink, { href: "https://docs.pancakeswap.finance/guides/faq#how-do-i-set-up-my-wallet-on-binance-smart-chain", external: true },
+        React__default['default'].createElement(HelpLink, { href: "https://docs.pinanswap.finance/guides/faq#how-do-i-set-up-my-wallet-on-binance-smart-chain", external: true },
             React__default['default'].createElement(Icon$13, { color: "primary", mr: "6px" }),
             "Learn how to connect")));
 };
