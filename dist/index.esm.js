@@ -770,7 +770,7 @@ var Icon$P = function (props) {
 };
 
 var Icon$O = function (props) {
-    return (React.createElement("img", { src: "../public/logo.png" }));
+    return (React.createElement("img", { src: "../images/logo.png" }));
 };
 
 var Icon$N = function (props) {
